@@ -9,3 +9,4 @@ id_rsa*
 kubeconfig
 
 .*
+tf_s3_bucket_creds
