@@ -1,6 +1,6 @@
 variable "name" {
   type    = string
-  default = "k8s"
+  default = "k8s-ampernetacle"
 }
 
 /*
@@ -39,7 +39,8 @@ variable "memory_in_gbs_per_node" {
 
 # Default OCI provider
 variable "tenancy_ocid" {
-  default = "ocid1.tenancy.oc1..aaaaaaaaihidlz7gd25acu7dun62sttonwij363s3kkcndyycq63i4br4pra"
+  #default = "ocid1.tenancy.oc1..aaaaaaaaihidlz7gd25acu7dun62sttonwij363s3kkcndyycq63i4br4pra"
+  default = "ocid1.tenancy.oc1..aaaaaaaac5g7wh5u5kcvzjeaxqsaop4pbuf3whetaxjrkco6b67aweuidbnq"
 }
 
 variable "region" {
