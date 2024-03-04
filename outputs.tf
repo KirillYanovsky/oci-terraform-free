@@ -20,3 +20,15 @@ output "ssh-with-ubuntu-user" {
     ]
   )
 }
+
+output "list_nodes_ocid" {
+  value = join(
+    "\n",
+    [for i in oci_core_instance._ :
+      format(
+        "OCID: %s",
+        i.id
+      )
+    ]
+  )
+}

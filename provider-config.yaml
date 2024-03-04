@@ -44,15 +44,16 @@ auth:
   useInstancePrincipals: false
 
 # compartment configures Compartment within which the cluster resides.
-compartment: ocid1.compartment.oc1..aaaaaaaafx2ii2k3lipsj6hk3kifvn4xbaqacjzamexvcvutgkfxplsanouq
+compartment: ocid1.compartment.oc1..aaaaaaaalhjcfvdmg4vsb6k5xq2uitbpqqtujap73n3wn3m5f5jerfnq3fha
 
 # vcn configures the Virtual Cloud Network (VCN) within which the cluster resides.
-vcn: ocid1.vcn.oc1.il-jerusalem-1.amaaaaaal77zigia62hsj6rjnza4hjcqmiizruuyskugucle5b5vz3vv3jxa
+vcn: ocid1.vcn.oc1.il-jerusalem-1.amaaaaaal77zigiawj4kur2cmkzeec62f6ich54khkajzwjhz6gsip7paqdq
 
 loadBalancer:
+  # ??????????????????
   # subnet1 configures one of two subnets to which load balancers will be added.
   # OCI load balancers require two subnets to ensure high availability.
-  subnet1: ocid1.subnet.oc1.il-jerusalem-1.aaaaaaaax63rvrrq6mxuxgyy2pvcvqvlva6g657t6mwpziiggiviu4djorjq
+  subnet1: ocid1.subnet.oc1.il-jerusalem-1.aaaaaaaaaos3ph7poapfhtehc3vm4pp7d6zhps5agtpf72c6tqthdeah3ckq
 
   # subnet2 configures the second of two subnets to which load balancers will be
   # added. OCI load balancers require two subnets to ensure high availability.
